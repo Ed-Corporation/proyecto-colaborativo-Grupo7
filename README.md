@@ -1,5 +1,5 @@
-## Proyecto Colaborativo – Gestión de Versionamiento con Git y GitHub
-# Descripción
+# Proyecto Colaborativo – Gestión de Versionamiento con Git y GitHub
+## Descripción
 Taller de Git y GitHub, grupo 7.
 El objetivo del taller es demostrar la aplicación de un flujo de trabajo colaborativo utilizando Git como sistema de control de versiones y GitHub como plataforma de colaboración y gestión del proyecto.
 Durante el desarrollo del taller se implementaron diferentes herramientas y funcionalidades de GitHub, incluyendo:
@@ -17,22 +17,22 @@ Revisión de código.
 Merge de ramas.
 Trabajo colaborativo mediante PowerShell y GitHub.
 
-# Integrantes
+## Integrantes
 Integrante	                |Rol
 Edwin Santiago Ballesteros	|Colaborador
 Byron Diaz                  |Colaborador 
 
-# Repositorio
+## Repositorio
 
-# Repositorio en GitHub:
+## Repositorio en GitHub:
 proyecto-colaborativo-Grupo7
 
 ## Objetivos
-# Objetivo general
+### Objetivo general
 
 Aplicar un flujo de trabajo colaborativo utilizando Git y GitHub para gestionar versiones, organizar actividades y controlar el desarrollo de un proyecto mediante ramas, issues, proyectos, milestones y Pull Requests.
 
-# Objetivos específicos
+### Objetivos específicos
 Configurar un repositorio Git y su archivo .gitignore para el trabajo colaborativo.
 Crear y administrar ramas independientes para los integrantes.
 Utilizar GitHub Projects, Issues y Milestones para organizar y realizar seguimiento a las tareas.
@@ -67,8 +67,8 @@ El proyecto siguió un flujo colaborativo basado en ramas:
                              │
                              ▼
                             main
-# Etapas del proyecto
-# Etapa 1 – Creación de archivos y .gitignore
+## Etapas del proyecto
+### Etapa 1 – Creación de archivos y .gitignore
 
 En la primera etapa se realizó la creación de los archivos necesarios para el proyecto y la configuración del archivo .gitignore.
 
@@ -76,19 +76,19 @@ El .gitignore permite especificar archivos y carpetas que no deben ser incluidos
 
 Ejemplo:
 
-# Archivos temporales
+### Archivos temporales
 *.tmp
 
-# Archivos del sistema
+### Archivos del sistema
 .DS_Store
 Thumbs.db
 
-# Configuraciones locales
+### Configuraciones locales
 .env
 
 Cada integrante trabajó con su respectiva configuración de .gitignore.
 
-# Etapa 2 – Preparación del entorno
+### Etapa 2 – Preparación del entorno
 
 Se utilizó PowerShell como terminal para ejecutar los comandos de Git y administrar el repositorio local.
 
@@ -111,11 +111,11 @@ Inicialización del repositorio Git.
 
 Consulta del estado actual del repositorio.
 
-# Etapa 3 – Planificación y organización en GitHub
+### Etapa 3 – Planificación y organización en GitHub
 
 Para organizar el trabajo colaborativo se utilizaron las herramientas de planificación disponibles en GitHub.
 
-# GitHub Projects
+### GitHub Projects
 
 Se creó un Project para organizar las actividades del proyecto mediante diferentes secciones y estados.
 El tablero permitió visualizar el progreso de las tareas y facilitar el seguimiento del trabajo realizado por cada integrante (simulación).
@@ -123,12 +123,12 @@ El tablero permitió visualizar el progreso de las tareas y facilitar el seguimi
 Ejemplo de flujo:
 To do → In progress → Done
 
-# Milestone
+### Milestone
 
 Se creó un Milestone para agrupar los Issues relacionados con el objetivo principal del taller.
 Los Milestones permiten establecer un objetivo común y realizar seguimiento al avance de las actividades asociadas.
 
-# Issues
+### Issues
 
 Se crearon Issues para dividir el trabajo en tareas específicas.
 
@@ -142,11 +142,11 @@ Cada Issue podía contener:
 
 El proyecto incluyó la creación y organización de Issues vinculados al Milestone y al Project.
 
-# Asignación de tareas
+### Asignación de tareas
 
 Las actividades fueron distribuidas entre los integrantes del grupo mediante la asignación de responsables en GitHub. Esto permitió identificar quién debía realizar cada actividad y realizar seguimiento al avance individual.
 
-# Etapa 4 – Trabajo mediante ramas
+### Etapa 4 – Trabajo mediante ramas
 
 Cada integrante trabajó en una rama personal para evitar realizar directamente los cambios sobre main.
 
@@ -188,7 +188,7 @@ Para actualizar la información del repositorio local:
 
 La conexión entre el repositorio local y GitHub permite mantener sincronizados los avances realizados por los integrantes.
 
-# Etapa 5 – Seguimiento y control en GitHub
+### Etapa 5 – Seguimiento y control en GitHub
 
 GitHub fue utilizado como plataforma central para realizar el seguimiento del proyecto.
 
@@ -203,7 +203,7 @@ Las herramientas utilizadas permitieron controlar:
 
 De esta manera, se pudo visualizar el estado de las actividades y conocer los avances realizados por cada integrante.
 
-# Pull Request
+### Pull Request
 
 Una vez finalizado el trabajo en una rama personal, se realizó el envío de los cambios mediante un Pull Request.
 
@@ -229,13 +229,13 @@ Asignación de revisor
 
 El Pull Request permitió solicitar formalmente la integración de los cambios realizados en la rama personal hacia la rama principal (Main).
 
-# Revisión de cambios
+### Revisión de cambios
 
 Durante el proceso de Pull Request se asignó al compañero correspondiente como revisor.
 La revisión permitió verificar los cambios realizados antes de integrarlos a la rama principal.
 Este procedimiento ayuda a reducir errores y facilita la colaboración entre los integrantes del equipo.
 
-# Merge
+### Merge
 Después de completar el proceso de revisión, los cambios fueron integrados mediante un merge.
 El proceso permitió incorporar los avances de las ramas personales a la rama principal:
 
@@ -252,8 +252,8 @@ rama personal
       ▼
      main
      
-# Comandos principales utilizados
-# Comando	Función
+## Comandos principales utilizados
+### Comando	Función
 git init	Inicializa un repositorio Git
 git status	Muestra el estado del repositorio
 git add .	Agrega cambios al staging
@@ -267,7 +267,7 @@ git pull	Descarga y sincroniza cambios
 git push	Envía cambios al repositorio remoto
 git remote -v	Muestra los repositorios remotos
 
-# Flujo colaborativo aplicado
+## Flujo colaborativo aplicado
 
 El flujo general utilizado durante el taller fue:
 
@@ -289,7 +289,7 @@ Revisar los cambios.
 Realizar el merge.
 Actualizar el estado de las actividades en GitHub.
 
-# Conclusiones
+## Conclusiones
 
 El desarrollo del taller permitió aplicar un flujo de trabajo colaborativo utilizando Git y GitHub, desde la configuración inicial del repositorio hasta la integración de los cambios mediante Pull Requests y Merge.
 
@@ -297,7 +297,7 @@ El uso de Issues, Projects y Milestones permitió organizar las actividades y re
 
 Finalmente, el proceso de revisión mediante Pull Requests permitió establecer un mecanismo de control antes de incorporar los cambios al repositorio principal, simulando un flujo de trabajo utilizado en proyectos de desarrollo de software.
 
-# Autores
+## Autores
 Edwin Ballesteros
 Bairon Diaz
 
